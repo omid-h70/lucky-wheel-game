@@ -19,7 +19,7 @@ down:
 	@echo "Done!"
 
 build:
-	@echo "Building Bank Service..."
+	@echo "Building Game Service..."
 	chdir ..\bank-service && set GOOS=linux&& set GOARCH=amd64&& set CGO_ENABLED=0 && go build -o ${APP_BINARY} .
 	@echo "Done!"
 
